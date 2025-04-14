@@ -62,11 +62,6 @@ Each model was evaluated using **Negative Root Mean Squared Error (neg RMSE)** v
 
 The **Gradient Boosting Regressor** performed the best, achieving the **lowest RMSE** across all models tested.
 
-###  Best Hyperparameters:
-```json
-{
-  "max_depth": 15,
-  "min_samples_split": 200
-}
+
 
 ## Final
