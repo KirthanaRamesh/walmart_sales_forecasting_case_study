@@ -54,7 +54,7 @@ Each model was evaluated using **Negative Root Mean Squared Error (neg RMSE)** v
 
 The **Gradient Boosting Regressor** performed the best, achieving the **lowest RMSE** across all models tested.
 
-## 📈 Final Evaluation
+## Final Evaluation
 
 On the test dataset, I computed the following evaluation metrics:
 
