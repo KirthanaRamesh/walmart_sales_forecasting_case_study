@@ -68,3 +68,24 @@ The **Gradient Boosting Regressor** performed the best, achieving the **lowest R
   "max_depth": 15,
   "min_samples_split": 200
 }
+
+---
+
+## Final Evaluation
+
+On the test dataset, I computed the following evaluation metrics:
+
+- **Root Mean Squared Error (RMSE)**: **94288.895**
+- **Mean Absolute Error (MAE)**: **54381.644**
+- **R² Score**: **0.973**, indicating strong predictive performance
+
+I also visualized **feature importance**, which revealed:
+
+- `Store` had the most influence on weekly sales,
+- Followed by `CPI`, `Unemployment`, and `Month`.
+
+---
+
+## Conclusion
+
+This project demonstrates how machine learning can be used to forecast sales and support smarter business decisions in retail. With a highly accurate Gradient Boosting model and interpretable feature insights, this approach can help optimize inventory management and reduce operational costs.
